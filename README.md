@@ -2,7 +2,9 @@
 研究室Webサイトの公開コンテンツ（[トップ](https://www.net.ict.e.titech.ac.jp)・[入学希望の方へ](https://www.net.ict.e.titech.ac.jp/welcome)・[研究領域](https://www.net.ict.e.titech.ac.jp/research)・[ニュース](https://www.net.ict.e.titech.ac.jp/news)）を管理するリポジトリです．
 
 1. masterブランチは保護されており，強制プッシュはできません
-1. masterブランチへプッシュすると自動でWebサイトがビルドされ，[www.net.ict.e.titech.ac.jp](https://github.com/yamaoka-kitaguchi-lab/www.net.ict.e.titech.ac.jp) へデプロイされます
+1. masterブランチへローカルの変更を反映するには，プルリクエストを作成する必要があります
+1. プルリクエスト作成時に自動でWebサイトがビルドされ，これが正常に終了した場合のみmasterブランチへのマージとデプロイが行われます
+    - **デプロイ先リポジトリ：[yamaoka-kitaguchi-lab/www.net.ict.e.titech.ac.jp](https://github.com/yamaoka-kitaguchi-lab/www.net.ict.e.titech.ac.jp)**
 
 ## ニュースの追加：`/content/news`
 以下に例を示します．
