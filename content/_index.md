@@ -1,4 +1,4 @@
-<h1><span class="glyphicon glyphicon-search" aria-hidden="true"></span>ネットワーク第2層から第6層まで</h1>
+<h1><i class="fas fa-search pr-3"></i>ネットワーク第2層から第6層まで</h1>
 
 当研究室では，インターネットをはじめとした情報通信ネットワークを対象として，ネットワーク制御技術および通信用マルチメディア処理技術を，理論と実装の両面から研究しています．
 
