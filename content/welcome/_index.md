@@ -1,3 +1,56 @@
++++
+[[resources]]
+  src = "0.jpg"
+  name = "slide"
+  title = "大岡山キャンパス 南3号館3階"
+
+[[resources]]
+  src = "1.jpg"
+  name = "slide"
+  title = "学生室（301号室）"
+
+[[resources]]
+  src = "2.jpg"
+  name = "slide"
+  title = "学生室（301号室）"
+
+[[resources]]
+  src = "3.jpg"
+  name = "slide"
+  title = "リフレッシュルーム（302号室）"
+  [resources.params]
+    description = "ベッド・ソファ・ゲーム機など"
+
+[[resources]]
+  src = "4.jpg"
+  name = "slide"
+  title = "リフレッシュルーム（302号室）"
+  [resources.params]
+    description = "電子レンジ・冷蔵庫・IH調理器など"
+
+[[resources]]
+  src = "5.jpg"
+  name = "slide"
+  title = "ミーティングスペース（303号室）"
+
+[[resources]]
+  src = "6.jpg"
+  name = "slide"
+  title = "サーバラック（303号室）"
+  [resources.params]
+    description = "研究室インフラの運用は学生が担当します"
+
+[[resources]]
+  src = "7.jpg"
+  name = "slide"
+  title = "ネットワーク機器（303号室）"
+
+[[resources]]
+  src = "8.jpg"
+  name = "slide"
+  title = "輪講室（300号室）"
++++
+
 ## 1. アドミッション・ポリシー
 東京工業大学の[入学者受け入れの方針](https://www.titech.ac.jp/about/policies/education/admissions.html)に準じます．  
 また当研究室では，企業や官公庁に所属しながら修士号，博士号の取得を目指す，社会人大学院生の受け入れを歓迎しています．
@@ -48,53 +101,4 @@
 南3号館301号室と313号室が学生室，302号室がリフレッシュルーム，303号室がサーバルーム兼ミーティングスペースになっています．  
 すべての学生にはブース型デスクとデスクトップPC，2枚のディスプレイが貸与されます．
 
-<div id="demo" class="carousel slide mb-5" data-ride="carousel">
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
-    <li data-target="#demo" data-slide-to="4"></li>
-    <li data-target="#demo" data-slide-to="5"></li>
-    <li data-target="#demo" data-slide-to="6"></li>
-    <li data-target="#demo" data-slide-to="7"></li>
-    <li data-target="#demo" data-slide-to="8"></li>
-  </ul>
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="0.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="1.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="2.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="3.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="4.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="5.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="6.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="7.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="8.jpg">
-    </div>
-  </div>
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-</div>
+{{% carousel id="welcome-carousel" %}}
