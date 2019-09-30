@@ -8,3 +8,5 @@
 - 許容通信遅延確保に向けた研究
 - マルチメディア通信品質制御・コンテンツ流通技術の研究
 - ネットワーク状態評価・ネットワーク運用に関わる研究
+
+For international students, please read [our admission policy](/for-international-students) carefully.
