@@ -15,7 +15,7 @@ RUN tar xf /tmp/hugosrc/${HUGO_RELEASE}_Linux-64bit.tar.gz -C /tmp/hugosrc && \
     chmod +x /usr/local/sbin/hugo && \
     rm -rf /tmp/hugosrc
 
-RUN apk add --no-cache git=2.18.1-r0 libc6-compat=1.1.19-r10 libstdc++=6.4.0-r9 ca-certificates=20171114-r3
+RUN apk add --no-cache git libc6-compat libstdc++ ca-certificates
 
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh

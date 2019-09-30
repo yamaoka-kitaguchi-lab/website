@@ -10,7 +10,7 @@ lint: docker/Dockerfile
 .PHONY: build
 build:
 	cp config.toml docker/config.toml
-	docker build -t ${IMAGE} docker
+	DOCKER_BUILDKIT=1 docker build -t ${IMAGE} docker
 
 run:
 	docker run --rm -v $(PWD)/content:/src/content:ro -v $(PWD)/public:/output ${IMAGE}
