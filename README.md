@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/yamaoka-kitaguchi-lab/website/images/logo.png)
+
 # Webコンテンツ管理リポジトリ [![Build Status](https://travis-ci.org/yamaoka-kitaguchi-lab/website.svg?branch=master)](https://travis-ci.org/yamaoka-kitaguchi-lab/website)
 研究室Webサイトの公開コンテンツ（[トップ](https://www.net.ict.e.titech.ac.jp)・[入学希望の方へ](https://www.net.ict.e.titech.ac.jp/welcome)・[研究領域](https://www.net.ict.e.titech.ac.jp/research)・[ニュース](https://www.net.ict.e.titech.ac.jp/news)）を管理するリポジトリです．
 
