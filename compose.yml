@@ -1,0 +1,21 @@
+services:
+  remote:
+    build:
+      context: .
+      target: remote
+    volumes:
+      - ./content:/ws/content
+      - ./config.toml:/ws/config.toml
+      - ./public:/ws/public
+    working_dir: /ws
+  website:
+    tty: true
+    build:
+      context: .
+      target: local
+    volumes:
+      - ./content:/ws/content
+      - ./config.toml:/ws/config.toml
+    working_dir: /ws
+    ports:
+      - 1313:1313
