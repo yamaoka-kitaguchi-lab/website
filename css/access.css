@@ -1,0 +1,11 @@
+#ggmap {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  #ggmap { height: 320px; }
+}
+
+@media screen and (min-width: 768px) {
+  #ggmap { height: 640px; }
+}
