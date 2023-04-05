@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     name: Build website
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
     timeout-minutes: 5
