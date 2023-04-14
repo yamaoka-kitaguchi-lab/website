@@ -1,15 +1,13 @@
-![](https://raw.githubusercontent.com/yamaoka-kitaguchi-lab/website/images/logo.png)
+![](https://github.com/yamaoka-kitaguchi-lab/hugo-room308-bootstrap-theme/raw/master/static/image/lab-logo-white.png)
 
-# Webコンテンツ管理リポジトリ [![](https://travis-ci.org/yamaoka-kitaguchi-lab/website.svg?branch=master)](https://travis-ci.org/yamaoka-kitaguchi-lab/website) [![](https://img.shields.io/github/issues/yamaoka-kitaguchi-lab/website)](https://github.com/yamaoka-kitaguchi-lab/website/issues) [![](https://img.shields.io/github/issues-pr/yamaoka-kitaguchi-lab/website)](https://github.com/yamaoka-kitaguchi-lab/website/pulls)
+# Webコンテンツ管理リポジトリ [![](https://img.shields.io/github/issues/yamaoka-kitaguchi-lab/website)](https://github.com/yamaoka-kitaguchi-lab/website/issues) [![](https://img.shields.io/github/issues-pr/yamaoka-kitaguchi-lab/website)](https://github.com/yamaoka-kitaguchi-lab/website/pulls)
 研究室Webサイトの公開コンテンツ（[トップ](https://www.net.ict.e.titech.ac.jp)・[入学希望の方へ](https://www.net.ict.e.titech.ac.jp/welcome)・[研究領域](https://www.net.ict.e.titech.ac.jp/research)・[ニュース](https://www.net.ict.e.titech.ac.jp/news)）を管理するリポジトリです．
 
 1. **master ブランチは保護されています．** 直接プッシュ `git push origin master` はできません
 1. master ブランチへローカルの変更を反映するにはプルリクエストを提出してください．なお，リクエストを承認し master ブランチへマージできるのは [net-root](https://github.com/orgs/yamaoka-kitaguchi-lab/teams/net-root) チームメンバーのみであり，さらにこれは以下2条件をクリアした場合に限られます:
     - **プルリクエスト作成時に自動実行されるテストをすべて通過すること**
     - **net-root によるコードレビューを経ること**
-1. master ブランチへのマージ後，自動でWebサイトがビルドされ成果物がデプロイされます
-
-**コンテンツデプロイ先リポジトリ: [yamaoka-kitaguchi-lab/www.net.ict.e.titech.ac.jp](https://github.com/yamaoka-kitaguchi-lab/www.net.ict.e.titech.ac.jp)**
+1. master ブランチへのマージ後，自動でWebサイトがビルドされ成果物が gh-pages ブランチにデプロイされます
 
 ## ニュースの追加：`/content/news`
 以下に例を示します
