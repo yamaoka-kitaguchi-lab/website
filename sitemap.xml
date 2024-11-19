@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.net.ict.e.titech.ac.jp/news/2023/20231202/</loc>
+    <lastmod>2023-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.net.ict.e.titech.ac.jp/news/2022/20230326/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.net.ict.e.titech.ac.jp/news/2022/20221213/</loc>
     <lastmod>2022-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.net.ict.e.titech.ac.jp/news/2021/20220326/</loc>
-    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.net.ict.e.titech.ac.jp/news/2022/20230326/</loc>
     <lastmod>2022-03-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -244,7 +249,7 @@
   
   <url>
     <loc>https://www.net.ict.e.titech.ac.jp/</loc>
-    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -261,7 +266,7 @@
   
   <url>
     <loc>https://www.net.ict.e.titech.ac.jp/news/</loc>
-    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -288,10 +293,6 @@
   <url>
     <loc>https://www.net.ict.e.titech.ac.jp/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.net.ict.e.titech.ac.jp/news/2023/20231202/</loc>
   </url>
   
 </urlset>
