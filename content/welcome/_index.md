@@ -52,7 +52,7 @@
 +++
 
 ## 1. アドミッション・ポリシー
-東京工業大学の[入学者受け入れの方針](https://www.titech.ac.jp/about/policies/education/admissions.html)に準じます．  
+東京科学大学の[入学者受け入れの方針](https://admissions.isct.ac.jp/ja/013/introduction/admissions-policy)に準じます．  
 また当研究室では，企業や官公庁に所属しながら修士号，博士号の取得を目指す，社会人大学院生の受け入れを歓迎しています．  
 For international students, please read [our admission policy](/for-international-students) carefully.
 
