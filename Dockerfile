@@ -8,6 +8,7 @@ RUN apt-get update && \
     git ca-certificates 
 
 WORKDIR /theme
+ARG CACHEBUST=0
 RUN git clone --depth 1 https://github.com/yamaoka-kitaguchi-lab/hugo-room308-bootstrap-theme .
 
 # In remote 

@@ -11,7 +11,13 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3
-      - run: docker compose run remote hugo
+
+      - name: Build Docker image with latest theme
+        run: docker compose build --build-arg CACHEBUST=${{ github.run_id }}-${{ github.run_attempt }} remote
+
+      - name: Build Hugo website
+        run: docker compose run --no-build remote hugo
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
