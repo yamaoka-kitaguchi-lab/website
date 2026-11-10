@@ -51,7 +51,7 @@ $(document).ready(() => {
         .append($('<h3 class="mb-0">').text(heading))
         .append($('<small class="m-0 info">')
           .append($('<i class="far fa-envelope pl-1 pr-2"></i>'))
-          .append("account@net.ict.e.titech.ac.jp"))
+          .append("account@net.ict.eng.isct.ac.jp"))
         .append($('<div class="table-responsive card card-body p-3 mt-3">')
           .append($('<table class="table mb-0">')
             .append(thead(group))
