@@ -16,7 +16,7 @@ jobs:
         run: docker compose build --build-arg CACHEBUST=${{ github.run_id }}-${{ github.run_attempt }} remote
 
       - name: Build Hugo website
-        run: docker compose run --no-build remote hugo
+        run: docker compose run remote hugo
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
