@@ -2,7 +2,7 @@
 FROM klakegg/hugo:0.52 AS hugo
 
 # Download theme
-FROM debian:bullseye-slim AS theme
+FROM debian:bookworm-slim AS theme
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     git ca-certificates 
@@ -18,7 +18,7 @@ WORKDIR /ws/themes/hugo-room308-bootstrap-theme
 COPY --from=theme /theme/ .
 
 # In local 
-FROM debian:bullseye-slim AS local
+FROM debian:bookworm-slim AS local
 
 COPY --from=hugo /bin/hugo /bin/hugo
 WORKDIR /ws/themes/hugo-room308-bootstrap-theme
